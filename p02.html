@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Chethna Kabeerdoss | Projects</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="style/images/art/icon.png">
+<link rel="stylesheet" type="text/css" href="style/css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="style/css/nivo-slider.css" media="screen">
+<link rel="stylesheet" type="text/css" href="style/type/classic.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/type/goudy.css" media="all">
+<script src="style/js/jquery-1.6.2.min.js"></script>
+<script src="style/js/superfish.js"></script>
+<script src="style/js/jquery.prettyPhoto.js"></script>
+<script src="style/js/jquery.nivo.slider.js"></script>
+<script>
+$(window).load(function () {
+    $('#slider').nivoSlider({
+        directionNavHide: false,
+        captionOpacity: 1.0
+    });
+});
+</script>
+</head>
+<body>
+<div id="body-wrapper">
+  <div id="header">
+    <div class="logo"> <a href="index.html"><img src="style/images/art/logo.png" alt=""></a> </div>
+    <div class="menu">
+      <ul class="sf-menu">
+         <li><a href="index.html">Home</a></li>
+        <li><a href="reelPage.html">Reel</a></li>
+        <!--<li><a href="resume.html">Resume</a></li>-->
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="wrapper">
+    <div class="intro">
+    	<a href="p01.html"><img class="leftAlign" src="style/images/prettyPhoto/facebook/btnPrevious.png"/></a>
+        BREAKING ICE
+        <a href="p03.html"><img src="style/images/prettyPhoto/facebook/btnNext.png" class="rightAlign"/></a>
+     </div>
+    
+    <div class="reel">
+      <div class="post video">
+       <!-- <div class="icon-video"></div> -->
+       <!-- <div class="content"> -->
+          <div class="top"></div>
+          <div class="middle">
+            <video width="960" controls>
+  				<source src="style/videos/p02_1.mp4" type="video/mp4">
+			</video>
+            <br/>
+            <br/>
+            <div class="post-text">
+              <h2 class="title">ABOUT Breaking Ice</h2>
+              <div>
+                <div class= "about">
+                  <p>
+In the Spring of 2015, I decided to do an independent study to become more proficient in creating effects. The vizlab allows us to collaborate with artists from the industry as an external advisor. Can Yuksel, a former vizzer( alumni of the Department of Visualization), currently working as an Effects Artist at DreamWorks Animation, was kind enough to agree to mentor me for a whole semester. Dr. Fred Parke was my in-house mentor. In this semester long project we explore the different ways in which ice breaks. I was responible all except the gargoyle and background icebreg models.
+<br/>
+</p>
+</div>
+<br/>
+<h2 class="title">OBJECTIVE</h2>
+<div>
+	<div class= "about">
+                  <p>Understand the mechanics of simulating physical systems as implemented in production-level visual effects software. And move beyond basic understanding, in order to manipulate physical system simulations to achieve complex and art directable physically based effects.
+Learn to interface with visual effects software API and write code to augment software in order to achieve a visual effect not directly supported by the software.
+Gain sufficiently deep knowledge and experience with simulating physical systems and compositing in order to produce “studio quality” visual effects. Can Yuksel from DreamWorks Animation will act as the domain expert to determine if we have achieved “studio quality.”</p>
+              	</div>
+              </div>
+              <div>
+                 
+                  <div class= "breakdown-text">
+                
+                   <div class = "tools">
+                      	<p><b>Software used:</b> Maya, Houdini, Nuke</p>
+                   </div>
+                      <!---------------------->
+                      <div class="heading">
+                      	<p><br/>STORYBOARD</p>
+                      </div>
+                          <div class = "explain">
+                      	<p>I storyboarded the short that I wanted to create keeping in mind the concept of breaking ice. My short involved showing how ice floor cracks & icicle breaking. I also added a fantastical effect of an ice block exploding.</p><br/>
+                 	 </div>
+                     <div class="img" align="center">
+                     <img src="style/images/art/p02_2.jpg" width = 460/>
+                     <img src="style/images/art/p02_3.jpg" width = 460/>
+                     </div>
+                    
+                     <!---------------------->
+                      <div class="heading">
+                      	<p><br/>FX</p>
+                      </div>
+                      <div class = "explain">
+                      	<p>For the cracks I created art directable procedural cracking tool in Houdini, that helped me achieve the ice floor cracking effect I wanted. Based on the curves, the cracks and secondary cracks are generated. The progression of the crack is controlled by animating the curve generation. For the explosion, I pre-fractured the geometry, I took help of metaballs to control it. Also built a debri system which generates smaller pieces of debris based on the force of the explosion. </p>
+                 	 </div>
+                     <br/>
+                     <div class="img" align="center">
+                     <img src="style/images/art/p02_4.jpg" width = 720/>
+                     <p><b>Ice floor cracked</b></p>
+                     </div>
+                      <br/>
+                      <div class="img" align="center">
+                     <img src="style/images/art/p02_5.jpg" width = 720/>
+                     <p><b>Ice block explosion</b></p>
+                     </div>
+                      <br/>
+               <!---------------------->
+                     <div class="heading">
+                      	<p><br/>SHADER</p>
+                     </div>
+                     
+                      <div class = "explain">
+                      	<p>Created a procedural ice shader in Houdini SHOPS with subsurface, displacement, refraction, reflection. I procedurally bubbles ( with different refrative index) inside the ice geometry.</p>
+                        <br/>
+                      </div>
+                      
+                      <div class="img" align="center">
+                          <br/>
+                         <video width="720" controls>
+  				<source src="style/videos/p02_5.mp4" type="video/mp4">
+			</video>
+                      </div>
+                 	 </div>
+                  </div>
+              </div>
+              <br/>
+
+                <div class="clear"></div>
+              </div>
+            </div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      </div>
+    <div class="clear"></div>
+  </div>
+  <div class="push"></div>
+</div>
+<div id="footer">
+  <div class="footer">
+    <p>Copyright Chethna Kabeerdoss 2017. All rights reserved.</p>
+  </div>
+</div>
+<script src="style/js/scripts.js"></script>
+</body>
+</html>

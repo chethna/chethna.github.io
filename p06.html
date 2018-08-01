@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Chethna Kabeerdoss | Projects</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="style/images/art/icon.png">
+<link rel="stylesheet" type="text/css" href="style/css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="style/css/nivo-slider.css" media="screen">
+<link rel="stylesheet" type="text/css" href="style/type/classic.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/type/goudy.css" media="all">
+<script src="style/js/jquery-1.6.2.min.js"></script>
+<script src="style/js/superfish.js"></script>
+<script src="style/js/jquery.prettyPhoto.js"></script>
+<script src="style/js/jquery.nivo.slider.js"></script>
+<script>
+$(window).load(function () {
+    $('#slider').nivoSlider({
+        directionNavHide: false,
+        captionOpacity: 1.0
+    });
+});
+</script>
+</head>
+<body>
+<div id="body-wrapper">
+  <div id="header">
+    <div class="logo"> <a href="index.html"><img src="style/images/art/logo.png" alt=""></a> </div>
+    <div class="menu">
+      <ul class="sf-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reelPage.html">Reel</a></li>
+        <!--<li><a href="resume.html">Resume</a></li>-->
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="wrapper">
+    <div class="intro">
+    	<a href="p05.html"><img class="leftAlign" src="style/images/prettyPhoto/facebook/btnPrevious.png"/></a>
+        PHYSICALLY BASED SIMULATION
+        <a href="p01.html"><img src="style/images/prettyPhoto/facebook/btnNext.png" class="rightAlign"/></a>
+     </div>
+    
+    <div class="reel">
+      <div class="post video">
+       <!-- <div class="icon-video"></div> -->
+       <!-- <div class="content"> -->
+          <div class="top"></div>
+          <div class="middle">
+          <div align="center">
+             <img  src="style/images/art/p06.jpg" width = 720/>
+             </div>
+            <br/>
+            <br/>
+            <div class="post-text">
+              <h2 class="title">ABOUT Physically Based Simulation</h2>
+              <div>
+                <div class= "about">
+                  <p>
+In the Fall of 2014, I took VIZA659, Physically Based Modeling course. I learnt the fundamentals and implementation of various physically based simulation. The main topics included particle systems, paticle interaction, collision detection and response, spring-mass-damper systems, integration techniques, and rigid body dyamics. I use C++ and OpenGL for the particle system and the rest I developed with Java, with the help of Processing to handle the graphics. I had to also write my own matrix and vector class for the rigid body simulation.
+Following this in the Spring of 2015, I took VIZA689, Advanced Physically Based Modeling course. I learnt about lagrangian and eulerian fluid simulations, about the Navier-Stokes equations for fluid simulation, constrained dynamics, briefly touched upon Featherstone's algorithm, and crowd simulation.
+<br/>
+</p>
+</div>
+              <div>
+                 
+                  <div class= "breakdown-text">
+                
+                   <div class = "tools">
+                      	<p><b>Languages used:</b> C++, OpenGL, GLUT, Java, Processing</p>
+                   </div>
+                      <!---------------------->
+                    <br/>
+                     <div class="explain">
+                    <p><b>Cloth Simulation, wind force based on mouse position</b></p>
+                     <p>Created lattice of points which are connected by structural, shear and bending springs. This simulation uses fourth-order Runge-Kutta integration.</p><br/>
+                     </div>
+                     <div class="img" align="center">
+                     <video width="720" controls>
+                            <source src="style/videos/p06_1.mp4" type="video/mp4">
+                        </video>
+                     </div>
+                    
+                     <!---------------------->
+                    
+                     <br/>
+                     <br/>
+                     <div class="explain">
+                    <p><b>Craig Reynold's Flocking Simulation</b></p>
+                     <p>This is a simulation of interacting particles also called boids. All particles have velocity matching, collision avoidance, and flock centering forces during the simulation. These parameters can be interactivelymadjusted. The simulation uses Euler integration.</p><br/>
+                     </div>
+                     <div class="img" align="center">
+                      <video width="720" controls>
+                        <source src="style/videos/p06_2.mp4" type="video/mp4">
+                     </video>
+                     
+                     </div>
+                      <br/>
+                       <!---------------------->
+                      <br/>
+                      <div class="explain">
+                    <p><b>Stam's Fluid Simulation</b></p>
+                     <p>This is an implementation of Stam’s Stable Fluids paper. This semi- Lagrangian approach is used to replicate gaseous state. A density field is created on mouse click and velocity field is introduced on mouse drag.</p><br/>
+                     </div>
+                      <div class="img" align="center">
+                      <video width="720" controls>
+                        <source src="style/videos/p06_3.mp4" type="video/mp4">
+                     </video>
+                     </div>
+                      <br/>
+               <!---------------------->
+             
+                      
+                 	 </div>
+                  </div>
+              </div>
+              <br/>
+
+                <div class="clear"></div>
+              </div>
+            </div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      </div>
+    <div class="clear"></div>
+  </div>
+  <div class="push"></div>
+</div>
+<div id="footer">
+  <div class="footer">
+    <p>Copyright Chethna Kabeerdoss 2017. All rights reserved.</p>
+  </div>
+</div>
+<script src="style/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Chethna Kabeerdoss | VIZA675</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="style/images/art/icon.png">
+<link rel="stylesheet" type="text/css" href="style/css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="style/css/nivo-slider.css" media="screen">
+<link rel="stylesheet" type="text/css" href="style/type/classic.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/type/goudy.css" media="all">
+<script src="style/js/jquery-1.6.2.min.js"></script>
+<script src="style/js/superfish.js"></script>
+<script src="style/js/jquery.prettyPhoto.js"></script>
+<script src="style/js/jquery.nivo.slider.js"></script>
+<script>
+$(window).load(function () {
+    $('#slider').nivoSlider({
+        directionNavHide: false,
+        captionOpacity: 1.0
+    });
+});
+</script>
+</head>
+<body>
+<div id="body-wrapper">
+  <div id="header">
+    <div class="logo"><a href="index.html"><img src="style/images/art/logo.png" alt=""></a></div>
+    <div class="menu">
+      <ul class="sf-menu">
+          <li>Procedural Modeling (VIZA 675)
+        </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="wrapper">
+    <div class="container">
+      <div class="projectProposal">
+    <p> <h2 class="line"><a  href="viza675.html">Update 1</a> | <a  href="viza675_page2.html">Update 2</a> |  <a  href="viza675_page3.html">Update 3</a> | <a  href="gallery.html">Reference Images</a></h2> </p>
+  
+    <p>
+<br/>
+<b>Final Report</b>
+<br/><br/>
+<b>Name:</b> Chethna Kabeerdoss 
+<br/><br/>
+<b>Title:</b> 
+Procedural modeling of 3D geometry using L-systems
+<br/><br/>
+    <b>Problem summary</b> 
+    <br/>Procedural modeling of stylized trees - mimic the 2D art of Ervind Earle (a landscape artist). Implementing rules of L-Systems to create 3D geometry. The 3D structure will also be governed by some patterns of fractals which can be represented using the L-System. 
+    <br/><br/>
+    <b>Previous work</b>
+    <br/>There is no shortage of software packages available online to generate 2D/3D procedural geometry. I would like to use the support of existing works to created stylized trees inspired by artist <a href"http://www.eyvindearle.com/" target="_blank"> Ervind Earle </a>.I have links to some of the relevant articles/papers I found.
+<br/>
+• <a href="https://www.newscientist.com/article/dn18171-the-mandelbulb-first-true-3d-image-of-famous-fractal/">Link 1</a> |
+•	<a href="https://www.physcip.uni-stuttgart.de/pages/~phy11733/stereo_e.html">Link 2</a> |
+•	<a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4390951&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4390951">Link 3</a> |
+•	<a href="http://link.springer.com/article/10.1007%2FBF01900831">Link 4</a> |
+• <a href="http://www.incendia.net/">Link 5</a> 
+|
+• <a href="http://www.fractal.org/Bewustzijns-Besturings-Model/Fractals-Useful-Beauty.htm">Link 6</a> | 
+• <a target="_blank" href="http://www.cse.chalmers.se/~uffe/xjobb/climbingplants.pdf">Link 7</a> |
+•	<a target="_blank" href="http://www.csse.monash.edu.au/~jonmc/research/Papers/McCormackThesisSml.pdf">Link 8</a> <br/>
+•	<a target="_blank" href="http://williamchyr.com/tag/generative-art/">Link 9</a> | 
+• <a target="_blank" href="http://www.selcukergen.net/ncca_lsystems_research/houdini.html">L-System Commands</a>
+
+<br/>
+For this project I used a 3rd party software to render the created geometry- <a href="http://www.sidefx.com/" target="_blank"> Houdini </a>
+<br/><br/>
+    <b>Description of work</b>
+    <br/>
+    Based on the goals I listed in my <a href="http://people.tamu.edu/~chethna/viza675.html" target="_blank">project proposal </a> I began this project by narrowing down the artist's work that I wanted to mimic. I chose <a href"http://www.eyvindearle.com/" target="_blank"> Ervind Earle </a>. His paintings are mostly of landscapes, cliffs and forests. I really like the way he represents trees in his paintings. They all seem to have self - similar patterns which looked very interesting. I decided to try and replicate some his stylized trees using L systems. <br/>
+    I picked 3 trees (linked below)
+    <br/>
+    <a target="_blank" href="style/images/art/VIZA657/viza675_up3_img1.jpg"><img src="style/images/art/VIZA657/viza675_up3_img1.jpg" height="310"></a>
+<a target="_blank" href="style/images/art/m12.jpg"><img src="style/images/art/m12.jpg" width="250"></a>
+<a target="_blank" href="style/images/art/m18.jpg"><img src="style/images/art/m18.jpg" width="250"></a>
+<br/><br/>
+The next step was to learn <a href="https://en.wikipedia.org/wiki/Turtle_graphics" target="_blank">turtle graphics</a> which is useful for defining <a href="https://en.wikipedia.org/wiki/Lindenmayer_system" target="_blank">L-Systems </a>, for modeling the stylized trees. I used this <a target="_blank" href="http://www.selcukergen.net/ncca_lsystems_research/houdini.html">L-System Commands</a> link primarly as a reference for the commands.
+<br/>
+The final step was to render the geometry, for which I used <a href="https://www.sidefx.com/index.php" target="_blank">Houdini's</a> in-built renderer Mantra to render my procedurally created geometry. 
+    <br/><br/>
+    <b>Results</b><br/>
+ <!---------------------------------------->   
+     <p>
+    Tree 1 – I picked a tree I thought would be easy to start with my beginner's knowledge of turtle graphics. I started off with just writing rules for the base structure of the tree. The leaves of the tree are like repeating circles (squiggles). For this I constructed a rule set separately  and joined it in between the rules for the base structure of the tree. 
+    </p>
+     
+    <br/><br/>
+    <div align="center">
+    <a target="_blank" href="style/images/art/VIZA657/viza675_up3_img1.jpg"><img src="style/images/art/VIZA657/viza675_up3_img1.jpg" height="300"></a>
+    
+    <a target="_blank" href="style/images/art/VIZA657/02.jpg"><img src="style/images/art/VIZA657/02.jpg" width="500" ></a>
+    
+    <br/>
+    </div>
+    <br/><br/>
+    
+    <div align="center">
+     <a target="_blank" href="style/images/art/VIZA657/03.jpg"><img src="style/images/art/VIZA657/03.jpg" width="240"></a>
+    <a target="_blank" href="style/images/art/04.jpg"><img src="style/images/art/VIZA657/04.jpg" width="500"></a>
+    <br/><br/>
+     <a target="_blank" href="style/images/art/05.jpg"><img src="style/images/art/VIZA657/05.jpg" width="900"></a>
+    </div>
+    <br/>
+    <br/>
+
+ <!---------------------------------------->   
+     <p>
+    Tree 2 – This tree was a bit of a challange, as the base structure was not straight forward like the previous one. I started off with just writing rules for the base structure of the tree. The leaves of the tree are like little spheres made of intersecting lines. 
+    </p>
+     
+    <br/><br/>
+    <div align="center">
+    <a target="_blank" href="style/images/art/m12.jpg"><img src="style/images/art/m12.jpg" width="400"></a>
+    
+    <a target="_blank" href="style/images/art/VIZA657/06.jpg"><img src="style/images/art/VIZA657/06.jpg" width="400" ></a>
+    
+    <br/>
+    </div>
+    <br/><br/>
+    
+    <div align="center">
+     <a target="_blank" href="style/images/art/VIZA657/07.png"><img src="style/images/art/VIZA657/07.png" width="400"></a>
+    <a target="_blank" href="style/images/art/09.png"><img src="style/images/art/VIZA657/09.png" width="400"></a>
+    <br/><br/>
+     <a target="_blank" href="style/images/art/08.png"><img src="style/images/art/VIZA657/08.png" width="400"></a>
+    </div>
+    <br/>
+    <br/>
+     
+      <!---------------------------------------->   
+     <p>
+    Tree 3 – This tree was a bit of a challange, as the base structure grew upwards but the branches grew downwards. I started off with just writing rules for the base structure of the tree. The leaves of the tree are like little spheres made of intersecting lines. 
+    </p>
+     
+    <br/><br/>
+    <div align="center">
+    <a target="_blank" href="style/images/art/m18.jpg"><img src="style/images/art/m18.jpg" width="400"></a>
+    
+    <a target="_blank" href="style/images/art/VIZA657/10.jpg"><img src="style/images/art/VIZA657/10.jpg" width="400" ></a>
+    
+    <br/>
+    </div>
+    <br/><br/>
+    
+    <div align="center">
+     <a target="_blank" href="style/images/art/VIZA657/11.png"><img src="style/images/art/VIZA657/11.png" width="400"></a>
+    <a target="_blank" href="style/images/art/09.png"><img src="style/images/art/VIZA657/09.png" width="400"></a>
+    <br/><br/>
+     <a target="_blank" href="style/images/art/12.png"><img src="style/images/art/VIZA657/12.png" width="800"></a>
+    </div>
+    <br/>
+    <br/>
+    
+    <p>
+    <b>Analysis of work </b>
+    <br/> I was able to get up to 3 trees - fully rendered for the completion of this project, as I had said in my previous update. 
+<br/>
+    Meeting goals – I was with the help of L-systems able to mimic the basic structure of the stylized tress.
+    <br/>
+    Future work – I think I would work on getting them to look pretty. If I were to continue working on this I would like to add wind force to interact with the model, wherein the leaves would move according to the direction of the wind.
+
+    </p>
+<br/>
+
+<br/>
+<br/>
+
+        <br>
+          <div class="response"></div>
+        </div>
+      </div>
+    
+     
+    <div class="clear"></div>
+  </div>
+  <div class="push"></div>
+</div>
+</div>
+<div id="footer">
+  <div class="footer">
+    <p>Copyright Chethna Kabeerdoss 2015. All rights reserved.</p>
+  </div>
+</div>
+<script src="style/js/scripts.js"></script>
+</body>
+</html>
